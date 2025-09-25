@@ -44,7 +44,7 @@ default_database = "sqlite"
 # Database testing (source project-specific)
 databases = ["sqlite", "postgresql"]
 sqlite_url = "sqlite:///./test.db"
-postgresql_url = "postgresql://savt_user:savt_password@localhost:5432/savt"
+postgresql_url = "postgresql://user:password@localhost:5432/testdb"
 test_env_var = "TEST_DATABASE"
 test_database_env = "DATABASE_URL"
 
@@ -95,7 +95,7 @@ template_paths = ["templates/"]
 
 # source project database testing
 databases = ["sqlite", "postgresql"]
-postgresql_url = "postgresql://savt_user:savt_password@localhost:5432/savt"
+postgresql_url = "postgresql://user:password@localhost:5432/testdb"
 test_env_var = "TEST_DATABASE"
 
 # source project custom integrations

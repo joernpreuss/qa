@@ -140,7 +140,7 @@ For each failing check, prompts:
 
 Options:
 1. **SQLite Tests** - Use `sqlite:///./test.db`
-2. **PostgreSQL Tests** - Use `postgresql://savt_user:savt_password@localhost:5432/savt`
+2. **PostgreSQL Tests** - Use `postgresql://user:password@localhost:5432/testdb`
 3. **Skip Tests**
 4. **Change Parallel Workers** (Fibonacci sequence selection)
 
