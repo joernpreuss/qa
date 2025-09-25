@@ -48,7 +48,7 @@ paths = ["src/", "tests/"]
 
 ## Development Status
 
-🚧 **In Development** - Extracted from the SAVT project, currently in Phase 0 of the export plan.
+🚧 **In Development** - Extracted from another project, currently in Phase 0 of the export plan.
 
 ## License
 
